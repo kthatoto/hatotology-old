@@ -1,0 +1,10 @@
+<div class="blogs">
+  <h1>blogs</h1>
+  <div class="blogs__index">
+    <% @posts.each do |post| %>
+      <%= link_to post, class: "blogs__item" do %>
+        <h2><%= post.title %></h2>
+      <% end %>
+    <% end %>
+  </div>
+</div>

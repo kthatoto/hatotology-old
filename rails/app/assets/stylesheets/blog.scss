@@ -1,0 +1,22 @@
+
+.blog {
+  position: relative;
+  padding: 100px 0;
+  width: 600px;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 3rem;
+  }
+  &__back {
+    position: absolute;
+    left: -100px;
+    &:hover {
+      color: #aaa;
+    }
+  }
+  h2 { font-size: 2rem; }
+  p { font-size: 1.4rem; }
+}

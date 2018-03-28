@@ -1,0 +1,30 @@
+
+.blogs {
+  position: relative;
+  padding: 100px 20px;
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+  &__index {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  &__item {
+    width: 30%;
+    height: 300px;
+    border: 1px solid gray;
+    float: left;
+    margin: 0 5% 50px 0;
+    cursor: pointer;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+    h2 {
+      margin: 5px;
+      font-size: 2rem;
+    }
+  }
+}
